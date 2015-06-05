@@ -11,6 +11,6 @@ OPTIONS:
 
 USAGE:
 
-1 ./phpcsmd.sh -r=/var/www/magento -b1=MAGNIMEX-SPRINT2 -b2=MAGNIMEX-SPRINT2-UNIT-TESTS
+1 ./phpcsmd.sh -r=/var/www/magento -b1=BRANCH_ONE -b2=BRANCH_TWO
 
-2 ./phpcsmd.sh --root=/var/www/magento --branch1=MAGNIMEX-SPRINT2 --branch2=MAGNIMEX-SPRINT2-UNIT-TESTS
+2 ./phpcsmd.sh --root=/var/www/magento --branch1=BRANCH_ONE --branch2=BRANCH_TWO
