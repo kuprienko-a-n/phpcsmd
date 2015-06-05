@@ -1,0 +1,16 @@
+DESCRIPTION:
+
+Run phpcs and phpmd test against diff between two branches
+
+OPTIONS:
+
+  -r,  --root       Project root
+  -b1, --branch1    First branch for comparison
+  -b2, --branch2    Second branch for comparison
+
+
+USAGE:
+
+1 ./phpcsmd.sh -r=/var/www/magento -b1=MAGNIMEX-SPRINT2 -b2=MAGNIMEX-SPRINT2-UNIT-TESTS
+
+2 ./phpcsmd.sh --root=/var/www/magento --branch1=MAGNIMEX-SPRINT2 --branch2=MAGNIMEX-SPRINT2-UNIT-TESTS
